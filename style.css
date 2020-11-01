@@ -1,0 +1,93 @@
+.pembuka {
+	font-size: 25px;
+	padding: 50px;
+	background-color: #000000;
+	text-align: center;
+	color: white;
+}
+
+header{
+    display: inline;
+}
+
+nav {
+	background-color: #505050;
+	padding: 5px;
+	position: sticky; 
+	top: 0;
+}
+
+nav a { 
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	margin-right: 20px;
+}
+
+nav a:hover {
+	font-weight: bold; 
+}
+
+#content {
+	float: left;
+	width: 75%;
+}
+
+.kotak {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.tab2{
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.profile img {
+    border-radius: 25%;
+	width: 200px;
+}
+
+aside {
+	float: right;
+	width: 25%; /* 25 karena 75 lagi di content */
+	padding-left: 20px;
+}
+
+.profile header {
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	padding: 20px;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+footer {
+	padding: 20px; /* tebal lapisan */
+	color: white;
+	background-color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
