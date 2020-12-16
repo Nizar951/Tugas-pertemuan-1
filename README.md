@@ -1,3 +1,1 @@
-Tugas pertemuan 1
-
-js nya masih gapaham mau buat gimana
+CV with html css
